@@ -511,31 +511,18 @@ sdu-chatbot-platform/
     │   │   └── requirements.txt   # Python dependencies
     │   └── README.md              # Local service documentation
     │
-    ├── QdrantRagService/          # RAG service with Qdrant
-    │   ├── main.py                # FastAPI application
-    │   ├── src/
-    │   │   ├── data_loader.py    # Data loading utilities
-    │   │   └── test_client.py    # Testing client
-    │   ├── docker-compose.yaml   # Docker Compose setup
-    │   ├── Dockerfile            # Docker configuration
-    │   ├── Makefile              # Development commands
-    │   ├── requirements.txt      # Python dependencies
-    │   └── README.md             # RAG service documentation
-    │
-    └── TelegramBotUI/             # Telegram bot interface
-        ├── main.py                # Bot entry point
-        ├── handlers.py            # Message handlers
-        ├── routers.py             # Route definitions
-        ├── db.py                  # Database operations
-        ├── tree_structure.py      # Menu system
-        ├── config.py              # Configuration
-        ├── DataStore/             # Local database
-        ├── db_queries/            # SQL scripts
-        ├── input_files/           # Menu configurations
-        ├── images/                # Static assets
-        ├── docker-compose.yml     # Docker Compose setup
-        ├── requirements.txt       # Python dependencies
-        └── README.md              # Telegram bot documentation
+    └── QdrantRagService/          # RAG service with Qdrant
+        ├── main.py                # FastAPI application
+        ├── src/
+        │   ├── data_loader.py    # Data loading utilities
+        │   └── test_client.py    # Testing client
+        ├── docker-compose.yaml   # Docker Compose setup
+        ├── Dockerfile            # Docker configuration
+        ├── Makefile              # Development commands
+        ├── requirements.txt      # Python dependencies
+        └── README.md             # RAG service documentation
+    
+    
 ```
 
 ### Folder Descriptions
